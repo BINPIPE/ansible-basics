@@ -1,0 +1,12 @@
+---
+  - name: Install Telnet on Ubuntu
+    hosts: test
+    gather_facts: no
+    connection: local
+    become: true
+
+    tasks:
+    - name: Install Telnet using apt
+      apt:
+        name: telnet
+        state: present
