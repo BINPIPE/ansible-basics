@@ -11,7 +11,7 @@ It is a repository of user contributed roles that you can add to playbooks to ac
 [https://galaxy.ansible.com](https://galaxy.ansible.com)
 
 
-Now the below playbook containing just 6 lines of YAML can install `Apache Solr` by using ansible roles-
+Now the below playbook containing just 6 lines of YAML can install `Apache Solr` by using ansible roles!
 
 ```code
 ---
@@ -22,8 +22,14 @@ Now the below playbook containing just 6 lines of YAML can install `Apache Solr`
     - geerlingguy.solr
   ```
   
-  And can even be run as a one-liner with this command!-
+  This is how we use roles:
   
-  `ansible-galaxy install geerlingguy.java geerlingguy.tomcat6 geerlingguy.solr`
+  1. Download the roles from Ansible Galaxy with the command:
   
-  So, the roles in Ansible Galaxy serve as building blocks that can be reused to make your installations faster, than having to write the entire playbooks in detail.
+    `ansible-galaxy install geerlingguy.java geerlingguy.tomcat6 geerlingguy.solr`
+  
+  2. Execute the playbook with the command:
+  
+  `ansible-playbook -i inventory -l test solr.yml --connection=local`
+  
+  Essentially, the roles in Ansible Galaxy serve as building blocks that can be reused to make your installations faster, than having to write the entire playbooks in detail.
