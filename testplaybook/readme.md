@@ -3,5 +3,5 @@
 Execute this sample playbook with:
 
 ```command
- ansible-playbook -i inventory playbook.yml --connection=local
+ ansible-playbook -i inventory foo.yml --connection=local
  ```
