@@ -14,17 +14,18 @@ Developed in basic text language, Playbooks are human readable and form the basi
 A playbook is a compilation of one or more plays. Each play in turn is responsible for mapping tasks to groups of hosts. Tasks are typically calls to Ansible modules.
 
 ```diff
-+ Demo Playbook to Install Telnet on Ubuntu:```
++ Demo Playbook to Install Telnet on Ubuntu:
+```
   <pre>
-<a href="https://github.com/BINPIPE/ansible-basics/tree/main/testplaybook">https://github.com/BINPIPE/ansible-basics/tree/main/wordpressplaybook</a>
+<a href="https://github.com/BINPIPE/ansible-basics/tree/main/testplaybook">https://github.com/BINPIPE/ansible-basics/tree/main/testplaybook</a>
 </pre>
 
 ```diff
 + Demo Playbook to Install LAMP & Wordpress on Ubuntu:
+```
 <pre>
 <a href="https://github.com/BINPIPE/ansible-basics/tree/main/wordpressplaybook">https://github.com/BINPIPE/ansible-basics/tree/main/wordpressplaybook</a>
 </pre>
-```
 
 ## **Modules**
 
