@@ -26,7 +26,7 @@ Now the below playbook containing just 6 lines of YAML can install `Apache Solr`
   
   1. Download the roles from Ansible Galaxy with the command:
   
-    `ansible-galaxy install geerlingguy.java geerlingguy.tomcat6 geerlingguy.solr`
+    ansible-galaxy install geerlingguy.java geerlingguy.tomcat6 geerlingguy.solr
   
   2. Execute the playbook with the command:
   
