@@ -1,6 +1,6 @@
 ---
 - hosts: all
+  become: true
+  
   roles:
-    - geerlingguy.java
-    - geerlingguy.tomcat6
-    - geerlingguy.solr
+    - geerlingguy.kibana
