@@ -26,10 +26,10 @@ Now the below playbook containing just 6 lines of YAML can install `Apache Solr`
   
   1. Download the roles from Ansible Galaxy with the command:
   
-    ansible-galaxy install geerlingguy.java geerlingguy.tomcat6 geerlingguy.solr
+    ansible-galaxy install mrlesmithjr.netdata
   
   2. Execute the playbook with the command:
   
-  `ansible-playbook -i inventory -l test solr.yml --connection=local`
+  `ansible-playbook -i inventory -l test netdata.yml --connection=local`
   
   Essentially, the roles in Ansible Galaxy serve as building blocks that can be reused to make your installations faster, than having to write the entire playbooks in detail.
