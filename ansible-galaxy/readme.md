@@ -11,15 +11,13 @@ It is a repository of user contributed roles that you can add to playbooks to ac
 [https://galaxy.ansible.com](https://galaxy.ansible.com)
 
 
-Now the below playbook containing just 6 lines of YAML can install `Apache Solr` by using ansible roles!
+Now the below playbook containing just 4 lines of YAML can install `Netdata` by using ansible roles!
 
 ```code
 ---
 - hosts: all
   roles:
-    - geerlingguy.java
-    - geerlingguy.tomcat6
-    - geerlingguy.solr
+    - mrlesmithjr.netdata
   ```
   
   This is how we use roles:
