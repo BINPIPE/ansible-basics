@@ -27,6 +27,22 @@ A playbook is a compilation of one or more plays. Each play in turn is responsib
 <a href="https://github.com/BINPIPE/ansible-basics/tree/main/wordpressplaybook">https://github.com/BINPIPE/ansible-basics/tree/main/wordpressplaybook</a>
 </pre>
 
+
+```diff
++ Playbook to Install Web based Mario Game on Ubuntu:
+```
+<pre>
+<a href="https://github.com/BINPIPE/mariohtml5">https://github.com/BINPIPE/mariohtml5</a>
+</pre>
+
+```diff
++ Playbook to Install Netdata Monitoring Tool on Ubuntu with Ansible Galaxy Roles:
+```
+<pre>
+<a href="https://github.com/BINPIPE/mariohtml5">https://github.com/BINPIPE/mariohtml5</a>
+</pre>
+
+
 ## **Modules**
 
 Ansible provides a module library or user-defined module that controls system resources. All modules support arguments, and most of them accept the key = value form. Data returned from modules are typically in the JSON format. Modules are idempotent, which means a change is made to the system only when the need arises.
