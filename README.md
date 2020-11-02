@@ -39,7 +39,7 @@ A playbook is a compilation of one or more plays. Each play in turn is responsib
 + Playbook to Install Netdata Monitoring Tool on Ubuntu with Ansible Galaxy Roles:
 ```
 <pre>
-<a href="https://github.com/BINPIPE/mariohtml5">https://github.com/BINPIPE/mariohtml5</a>
+<a href="https://github.com/BINPIPE/ansible-basics/tree/main/ansible-galaxy">https://github.com/BINPIPE/ansible-basics/tree/main/ansible-galaxy</a>
 </pre>
 
 
