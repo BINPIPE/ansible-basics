@@ -11,7 +11,7 @@ It is a repository of user contributed roles that you can add to playbooks to ac
 [https://galaxy.ansible.com](https://galaxy.ansible.com)
 
 
-Now the below playbook containing just 4 lines of YAML can install `Netdata` by using ansible roles!
+For example, the below playbook containing just 4 lines of YAML can install `Netdata` by using ansible roles!
 
 ```code
 ---
