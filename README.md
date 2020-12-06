@@ -1,4 +1,4 @@
-# Ansible Basics
+# Ansible Basics |[![BINPIPE](https://img.shields.io/badge/YouTube-red.svg)](https://www.youtube.com/channel/UCPTgt4Wo0MAnuzNEEZlk90A)
 
 Ansible is an IT automation tool that provides continuous deployment capabilities and zero downtime rolling updates. It’s simplicity, agentless features, and scalability is what makes it stand out. In this post, let’s discuss some common terms used in Ansible to get a better grasp of this tool.
 
@@ -88,3 +88,8 @@ The process of controlling N nodes to avoid failure due to simultaneous parallel
 ## **Ansible Galaxy**
 
 Ansible Galaxy refers to the free online community to download, view and rate Ansible roles.
+
+
+___
+:ledger: Maintainer: **[Prasanjit Singh](https://www.linkedin.com/in/prasanjit-singh)** | **www.binpipe.org**   [![BINPIPE](https://img.shields.io/badge/YouTube-red.svg)](https://www.youtube.com/channel/UCPTgt4Wo0MAnuzNEEZlk90A)
+___ 
